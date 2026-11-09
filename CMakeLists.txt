@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
 
-project(P69 LANGUAGES CXX)
+project(P69 VERSION 0.1 LANGUAGES CXX)
 
 if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
     set(CMAKE_BUILD_TYPE "Release" CACHE STRING "Choose the type of build." FORCE)
